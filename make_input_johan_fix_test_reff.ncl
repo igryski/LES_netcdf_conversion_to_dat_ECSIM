@@ -1,5 +1,9 @@
+; 8.1.2015. Added git GH repo NCLscripts
+
 load "$NCARG_ROOT/lib/ncarg/nclscripts/csm/contributed.ncl"
 begin
+
+
 
 ; Open the file
 fin = addfile("/data/Download/les_model_output_3d/fielddump_hr02.nc","r")
